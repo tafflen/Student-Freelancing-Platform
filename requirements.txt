@@ -1,0 +1,30 @@
+# STUDENT FREELANCING PLATFORM - PACKAGE REQUIREMENTS
+# ----------------------------------------------------
+# Note: This is a MERN Stack project (Node.js/JavaScript).
+# Packages are installed via npm using package.json.
+# Below is the exact manifest of all packages and versions used:
+
+# System Environment:
+Node.js >= 18.0.0 (Recommended: v20.x or v22.x or v24.x)
+npm >= 9.0.0
+MongoDB Community Server >= 6.0 (running locally on port 27017)
+
+# Backend Dependencies (backend/package.json):
+# Install with: cd backend && npm install
+express==4.21.2
+mongoose==8.9.5
+cors==2.8.5
+dotenv==16.4.7
+
+# Backend Dev Dependencies:
+nodemon==3.1.9
+
+# Frontend Dependencies (frontend/package.json):
+# Install with: cd frontend && npm install
+react==19.2.8
+react-dom==19.2.8
+react-router-dom==7.18.4
+
+# Frontend Dev Dependencies:
+vite==8.3.0
+@vitejs/plugin-react==6.1.1
